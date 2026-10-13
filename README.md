@@ -68,15 +68,3 @@ Dùng **2D Pose Estimate** trong RViz2 để đặt vị trí ban đầu. Kiểm
 ```
 Dùng **Nav2 Goal** trong RViz2 để đặt goal. Robot tự lập kế hoạch và di chuyển, không điều khiển tay.
 
-## 4. Node và topic chính
-
-| Thành phần | Vai trò |
-|---|---|
-| `slam_toolbox` | Xây dựng bản đồ, publish `/map` |
-| `map_server` | Load `map.yaml` / `map.pgm` |
-| `amcl` | Định vị robot trên bản đồ, publish TF `map → odom` |
-| `planner_server` | Lập đường đi toàn cục |
-| `controller_server` | Bám đường đi, xuất `/cmd_vel` |
-| `bt_navigator` | Điều phối hành vi điều hướng |
-
-Topic: `/scan` (LiDAR), `/odom` (odometry), `/cmd_vel` (lệnh vận tốc), `/map`, `/tf`, `/goal_pose`.
