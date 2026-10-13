@@ -1,10 +1,5 @@
 # Bài thực hành 04 – TurtleBot 4 Simulation (SLAM, Localization, Nav2)
 
-Mô phỏng TurtleBot 4 trong Gazebo (Ignition Fortress), xây dựng bản đồ bằng SLAM Toolbox, định vị bằng AMCL và điều hướng tự động bằng Nav2.
-
-- Video demo: <DÁN LINK GOOGLE DRIVE>
-- Môi trường: Ubuntu 22.04, ROS 2 Humble, world `maze`
-
 ## 1. Cài đặt
 
 ```bash
