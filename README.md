@@ -24,9 +24,8 @@ Clone repo này:
 git clone https://github.com/23020736-glitch/turtlebot4-bai04.git
 ```
 
-## 2. Cấu trúc repo
 
-## 3. Cách chạy
+## 2. Cách chạy
 
 ### Phần 1 – Simulation
 ```bash
